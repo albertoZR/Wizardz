@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.home {
+    font-weight: bold;
+}
+h1 {
+    font-size: 60px;
+    padding: 50px;
+    padding-top: 75px;
+    padding-bottom: 0;
+}
+.text-presentation {
+    padding: 50px;
+    padding-top: 25px;
+
+}
+.consultation-bottom{
+    padding: 50px;
+    padding-top: 25px;
+    text-decoration: none;
+    color: black;
+}
+.marketing-vector {
+    height: 250px;
+}
+.presentation {
+    width: 580px;
+}
+.main-vector {
+    
+}
