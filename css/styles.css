@@ -9,18 +9,34 @@
 nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: end;
     padding: 50px;
 }
 
 nav ul li a {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 18px;
+    font-family: "Inconsolata", monospace;
+    padding-left: 75px;
+}
+
+.request-buttom {
+    border: 2px solid black;
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+
+.blog-buttom {
+    padding-right: 50px;
 }
 
 .home {
     font-weight: bold;
+    display: flex;
+}
+.home-icon {
+    padding: 20px;
 }
 
 /* Estilos de la presentación */
@@ -29,28 +45,34 @@ nav ul li a {
 }
 
 h1 {
-    font-size: 60px;
-    padding: 75px 50px 0 50px;
+    font-size: 50px;
+    padding: 50px 50px 0 100px;
+    font-family: "Inconsolata", monospace;
+    font-weight: bold;
 }
 
 .text-presentation {
-    padding: 25px 50px 50px 50px;
+    padding: 30px 50px 75px 100px;
+    font-family: "Inter", sans-serif;
 }
 
 .consultation-button {
-    padding: 15px;
+    padding: 15px 30px;
     text-decoration: none;
     color: white;
     background-color: #000;
-    margin: 50px;
-    border-radius: 15px;
+    margin: 100px;
+    border-radius: 10px;
     letter-spacing: 2px;
     word-spacing: 10px;
+    font-family: "Inconsolata", monospace;
 }
 
 /* Estilos de la imagen vectorial */
 .marketing-vector {
-    height: 400px;
+    height: 450px;
+    margin-top: -390px;
+    margin-left: 750px;
 }
 
 /* Estilos de los logos */
