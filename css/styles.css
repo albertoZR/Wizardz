@@ -1,108 +1,235 @@
 /* Reset básico */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Estilos de navegación */
 nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: end;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 80px;
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 80px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    font-family: "Inconsolata", monospace;
-    padding-left: 75px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: "Inconsolata", monospace;
+  padding-left: 75px;
 }
 
 .request-buttom {
-    border: 2px solid black;
-    padding: 15px 25px;
-    border-radius: 15px;
+  border: 2px solid black;
+  padding: 15px 25px;
+  border-radius: 15px;
 }
 
 .blog-buttom {
-    padding-right: 50px;
+  padding-right: 50px;
 }
 
 .home-icon {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .home {
-    font-weight: bold;
-    display: flex;
+  font-weight: bold;
+  display: flex;
 }
 
- .home a {
-    padding-right: 50px;
-    margin-top: -10px;
-    font-size: 35px;
-    align-items: center;
- }
+.home a {
+  padding-right: 50px;
+  margin-top: -10px;
+  font-size: 35px;
+  align-items: center;
+}
 
 /* Estilos de la presentación */
 .presentation {
-    width: 580px;
+  width: 580px;
 }
 
 h1 {
-    font-size: 50px;
-    padding: 50px 50px 0 100px;
-    font-family: "Inconsolata", monospace;
-    font-weight: bold;
+  font-size: 50px;
+  padding: 50px 50px 0 100px;
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
 }
 
 .text-presentation {
-    padding: 30px 50px 75px 100px;
-    font-family: "Inter", sans-serif;
+  padding: 30px 50px 75px 100px;
+  font-family: "Inter", sans-serif;
 }
 
 .consultation-button {
-    padding: 15px 30px;
-    text-decoration: none;
-    color: white;
-    background-color: #000;
-    margin: 100px;
-    border-radius: 10px;
-    letter-spacing: 2px;
-    word-spacing: 10px;
-    font-family: "Inconsolata", monospace;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: white;
+  background-color: #000;
+  margin: 100px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  font-family: "Inconsolata", monospace;
 }
 
 /* Estilos de la imagen vectorial */
 .marketing-vector {
-    height: 450px;
-    margin-top: -390px;
-    margin-left: 750px;
+  height: 450px;
+  margin-top: -390px;
+  margin-left: 750px;
 }
 
 /* Estilos de los logos */
 .logos img {
-    padding-left: 100px;
-    margin: 10px;
+  padding-left: 100px;
+  margin: 10px;
 }
 
 .logos img {
-    height: 40px;
+  height: 40px;
 }
 
 /* Estilos de los logos */
-.logos img[src$="Hubspot_logo.png"], 
+.logos img[src$="Hubspot_logo.png"],
 .logos img[src$="notion_logo.png"] {
-    height: 80px; /* Ajusta el tamaño según tus necesidades */
-    margin-bottom: -3px;
+  height: 80px; /* Ajusta el tamaño según tus necesidades */
+  margin-bottom: -3px;
 }
 
 .logos img[src$="zoom_logo.webp"] {
-    height: 120px;
-    margin-bottom: -30px;
+  height: 120px;
+  margin-bottom: -30px;
+}
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+.services {
+  margin: 110px;
+  font-size: 30px;
+  border-radius: 10%;
+  padding: 5px;
+  background-color: #adff60;
+  display: inline-block;
+}
+.services-text {
+  margin-left: 350px;
+  margin-top: -155px;
+}
+
+.card1 {
+  margin: 110px;
+  height: 300px;
+  max-width: 500px;
+  border: 3px solid #000;
+  border-bottom: 15px solid #000;
+  border-radius: 50px;
+}
+.title-card1 {
+  margin: 50px 0 0 50px;
+  font-size: 25px;
+  background-color: #adff60;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 10px 10px 10px 0px;
+}
+.title-card1-2 {
+  margin: 0px 10px 50px 50px;
+  font-size: 25px;
+  background-color: #adff60;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 0px 0px 10px 10px;
+}
+.text-card1 {
+  padding: 50px;
+}
+.icon-arrow {
+  padding-right: 15px;
+}
+
+.card2 {
+  margin: -415px 100px 100px 750px;
+  height: 300px;
+  max-width: 500px;
+  border: 3px solid #000;
+  border-bottom: 15px solid #000;
+  background-color: #000;
+  border-radius: 50px;
+}
+.title-card2 {
+  margin: 50px;
+  font-size: 25px;
+  background-color: #fff;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 10px;
+}
+.text-card2 {
+  padding: 50px;
+  color: #fff;
+}
+
+.card3 {
+  margin: 110px;
+  height: 300px;
+  max-width: 500px;
+  border: 3px solid #000;
+  border-bottom: 15px solid #000;
+  background-color: #000;
+  border-radius: 50px;
+}
+.title-card3 {
+  margin: 50px;
+  font-size: 25px;
+  background-color: #fff;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 10px;
+}
+.text-card3 {
+  padding: 50px;
+  color: #fff;
+}
+
+.card4 {
+  margin: -415px 100px 100px 750px;
+  height: 300px;
+  max-width: 500px;
+  border: 3px solid #000;
+  border-bottom: 15px solid #000;
+  border-radius: 50px;
+}
+.title-card4 {
+  margin: 50px 0 0 50px;
+  font-size: 25px;
+  background-color: #adff60;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 10px 10px 0px 0px;
+}
+.title-card4-2 {
+  margin: 0px 10px 50px 50px;
+  font-size: 25px;
+  background-color: #adff60;
+  display: inline-block;
+  padding: 5px;
+  border-radius: 0px 10px 10px 10px;
+}
+.text-card4 {
+  padding: 50px;
 }
