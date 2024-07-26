@@ -155,7 +155,12 @@ h3 {
   padding: 5px;
   border-radius: 0px 0px 10px 10px;
 }
+.vector-card1 {
+  width: 250px;
+  margin: -150px 0 0 250px;
+}
 .text-card1 {
+  margin-top: -120px;
   padding: 50px;
 }
 .icon-arrow {
@@ -182,6 +187,7 @@ h3 {
 .text-card2 {
   padding: 50px;
   color: #fff;
+  margin-top: -100px;
 }
 
 .card3 {
@@ -204,10 +210,11 @@ h3 {
 .text-card3 {
   padding: 50px;
   color: #fff;
+  margin-top: -100px;
 }
 
 .card4 {
-  margin: -415px 100px 100px 750px;
+  margin: -410px 100px 100px 750px;
   height: 300px;
   max-width: 500px;
   border: 3px solid #000;
@@ -232,4 +239,48 @@ h3 {
 }
 .text-card4 {
   padding: 50px;
+  margin-top: -110px;
+}
+.card5 {
+  margin: 100px;
+  height: 300px;
+  max-width: 1300px;
+  border: 3px;
+  background-color: #ebebeb;
+  border-radius: 50px;
+}
+.title-card5 {
+  margin: 50px 10px 10px 50px;
+  font-size: 25px;
+  display: inline-block;
+  padding: 5px;
+  font-family: "Inter", sans-serif;
+}
+.text-card5 {
+  margin: 10px 10px 25px 50px;
+}
+.butomm-card5 {
+  margin: 0 50px;
+  padding: 15px 25px;
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  border-radius: 10px;
+  font-family: "Inconsolata", monospace;
+}
+.vector-card2 {
+  width: 250px;
+  margin: -150px 0 0 250px;
+}
+.vector-card3 {
+  width: 250px;
+  margin: -150px 0 0 250px;
+}
+.vector-card4 {
+  width: 250px;
+  margin: -150px 0 0 250px;
+}
+.vector-card5 {
+  width: 400px;
+  margin: -350px 0 100px 750px;
 }
