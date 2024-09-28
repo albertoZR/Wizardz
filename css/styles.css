@@ -9,7 +9,7 @@
 nav ul {
   list-style-type: none;
   display: flex;
-  justify-content: end;
+  justify-content: start;
   padding-top: 50px;
   padding-bottom: 50px;
   padding-right: 80px;
@@ -283,4 +283,44 @@ h3 {
 .vector-card5 {
   width: 400px;
   margin: -350px 0 100px 750px;
+}
+
+footer {
+  margin: 100px 0px 100px 100px;
+  height: 300px;
+  max-width: 1300px;
+  border-radius: 50px;
+  background-color: #292929;
+  padding: 50px;
+}
+
+footer section {
+  display: flex;
+  justify-content: space-between;
+  height: 100%; /* Para que las líneas divisorias cubran toda la altura */
+}
+
+footer article {
+  flex: 1; /* Cada artículo ocupa un tercio del espacio */
+  padding: 0 20px;
+  color: white;
+  font-family: "Inconsolata", monospace;
+  position: relative;
+}
+
+/* Pseudo-elemento para agregar las líneas divisorias */
+footer article:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: white; /* Color de la línea */
+}
+footer p {
+  padding-bottom: 50px;
+}
+.footer-text-green {
+  color: #adff60;
 }
